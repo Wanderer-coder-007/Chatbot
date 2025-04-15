@@ -3,13 +3,10 @@ import re
 from openai import OpenAI
 
 # DeepInfra credentials
-DEEPINFRA_API_KEY = "Z1dqh9U7DJuxZwSOex5fHwvCEYfcKwrl"
-DEEPINFRA_BASE_URL = "https://api.deepinfra.com/v1/openai"
+
 
 # Initialize OpenAI-compatible client for DeepInfra
 openai = OpenAI(
-    api_key=DEEPINFRA_API_KEY,
-    base_url=DEEPINFRA_BASE_URL,
 )
 
 # Menu with pricing
